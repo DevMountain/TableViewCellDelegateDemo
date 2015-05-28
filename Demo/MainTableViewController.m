@@ -83,7 +83,7 @@ typedef NS_ENUM(NSInteger, TableViewSection) {
 }
 
 - (void)cellSwitchToggled:(UISwitch *)toggle cell:(SwitchTableViewCell *)cell {
-    NSLog(@"View Controller got the message!");
+    NSLog(@"View Controller got the message: Switch is %@", toggle.isOn ? @"ON" : @"OFF");
 }
 
 
